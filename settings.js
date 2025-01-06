@@ -27,16 +27,16 @@ module.exports = {
     GOODBYE: 'https://i.ibb.co/t8hKpcM/GOODBYE-IMAGE-LOWQ.jpg'
   },
   STOP_SEND : {
-        WELCOME_MESSAGE : true,
-        GOODBYE_MESSAGE : true
+        WELCOME_MESSAGE : false,
+        GOODBYE_MESSAGE : false
     },
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
-  WORK_TYPE : "private",
-  WORK_MODE : "onlyinbox",
+  WORK_TYPE : "public",
+  WORK_MODE : "onlygroups",
   WORK_MODE_MESSAGE_SEND : false,
-  CAPTION : '*々 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʏʙᴇʀᴋɪʟʟᴇʀꜱᴛᴇᴀᴍ*',
-  STICKER_PACK : '[ ZUSYCO ]',
+  CAPTION : '*々 ᴘᴏᴡᴇʀᴇᴅ ʙʏ dinu*',
+  STICKER_PACK : '[ ZDINO ]',
   BAD_WORDS : 'fuck,pussy',
   ANTI_BAD : false,
   ANTI_LINKS : 'chat.whatsapp.com',
@@ -50,11 +50,11 @@ module.exports = {
   READ : {
      ALL_MESSAGES : false,
      ONLY_COMMANDS : true,
-     STATUS : true,
+     STATUS : false,
   },
   BOT_OFFLINE : true,
   INBOX_BLOCK : false,
-  AUTO_REACT : false,
+  AUTO_REACT : true,
   OWNER_REACT : '🤵‍♂️',
   AUTO_BGM : false,
   BGM : {
